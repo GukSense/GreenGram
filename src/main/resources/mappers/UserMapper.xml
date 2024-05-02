@@ -7,7 +7,8 @@
         INSERT INTO user
         SET         uid = #{uid},
                     upw = #{upw},
-                    nm = #{nm}
+                    nm = #{nm},
+                    pic = #{pic}
     </insert>
 
     <select id="getUserOne">

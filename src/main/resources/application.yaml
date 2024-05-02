@@ -21,3 +21,17 @@ springdoc:
     display-request-duration: true # try it out ? ??? request duration(?? ????)? ??? ???
     cache:
       disabled: true
+
+file:
+  directory: D:\download\greengram_ver1\
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test
+
+file:
+  directory: D:\download\greengram_ver1\
