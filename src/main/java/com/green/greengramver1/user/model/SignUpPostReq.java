@@ -14,4 +14,6 @@ public class SignUpPostReq {
     private String nm;
     @JsonIgnore
     private String pic;
+    @JsonIgnore
+    private long userId;
 }

@@ -5,6 +5,7 @@ import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.util.UUID;
@@ -37,5 +38,15 @@ public class CustomFileUtils {
    public String makeRandomFileName(String fileName) {
       String ext = getExt(fileName);
       return makeRandomFileName() + ext;
+   }
+   //using MultipartFile
+   public String makeRandomFileName(MultipartFile mf) {
+      return mf == null ? null : makeRandomFileName(mf.getOriginalFilename());
+   }
+
+   //파일 저장(target: 경로/파일명)
+   public void transferTo(MultipartFile mf, String target) throws Exception {
+      File saveFile = new File(uploadPath, target); //최종경로
+      mf.transferTo(saveFile);
    }
 }

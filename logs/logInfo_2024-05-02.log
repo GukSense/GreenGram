@@ -1,0 +1,783 @@
+[2024-05-02 13:12:55 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 1712 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 13:12:55 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 13:12:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-05-02 13:12:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 971 ms[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@6df78d05[0;39m
+[2024-05-02 13:12:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 2.098 seconds (process running for 2.498)[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 13:12:57 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 13:13:00 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-05-02 13:13:00 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-05-02 14:40:43 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10152 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:40:43 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:40:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-05-02 14:40:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1175 ms[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@40a9baea[0;39m
+[2024-05-02 14:40:44 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 2.249 seconds (process running for 2.673)[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:40:45 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 14:40:46 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'p' for method parameter type SignUpPostReq is not present][0;39m
+[2024-05-02 14:43:20 [32mINFO [0;39m http-nio-8080-exec-6] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 108 ms[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10152 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 256 ms[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Starting...[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-2 - Added connection org.mariadb.jdbc.Connection@1b3e69a9[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Start completed.[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.447 seconds (process running for 315.291)[0;39m
+[2024-05-02 14:45:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 14:45:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:45:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:45:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-05-02 14:45:58 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.method.annotation.MethodArgumentConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.green.greengramver1.user.model.SignUpPostReq'; Cannot convert value of type 'java.lang.String' to required type 'com.green.greengramver1.user.model.SignUpPostReq' for property 'p': no matching editors or conversion strategy found][0;39m
+[2024-05-02 14:48:46 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown initiated...[0;39m
+[2024-05-02 14:48:46 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown completed.[0;39m
+[2024-05-02 14:48:48 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 7764 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:48:48 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:48:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-05-02 14:48:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 922 ms[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@7d501571[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:48:49 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 1.997 seconds (process running for 2.349)[0;39m
+[2024-05-02 14:48:50 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:48:50 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:48:50 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 14:48:53 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 14:49:50 [32mINFO [0;39m http-nio-8080-exec-6] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 104 ms[0;39m
+[2024-05-02 14:50:15 [33mWARN [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 14:51:33 [33mWARN [0;39m http-nio-8080-exec-9] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 14:51:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-05-02 14:51:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:51:54 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 907 ms[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@72879bd[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:51:55 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 1.96 seconds (process running for 2.342)[0;39m
+[2024-05-02 14:51:56 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:51:56 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:51:56 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.154] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 14:52:00 [33mWARN [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 14:54:12 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 14:54:34 [32mINFO [0;39m http-nio-8080-exec-6] [com.green.greengramver1.user.UserController] [36mpic: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7f2dff8c[0;39m
+[2024-05-02 14:54:34 [32mINFO [0;39m http-nio-8080-exec-6] [com.green.greengramver1.user.UserController] [36mp: SignUpPostReq(uid=mic, upw=1234, nm=딸기초코파르페, pic=null)[0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:56:03 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 277 ms[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Starting...[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-2 - Added connection org.mariadb.jdbc.Connection@4fe20e19[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Start completed.[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.48 seconds (process running for 250.878)[0;39m
+[2024-05-02 14:56:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m Thread-7] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m Thread-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown initiated...[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m Thread-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown completed.[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 336 ms[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-3 - Starting...[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-3 - Added connection org.mariadb.jdbc.Connection@e409cc2[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-3 - Start completed.[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.586 seconds (process running for 265.505)[0;39m
+[2024-05-02 14:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 14:56:29 [32mINFO [0;39m http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:56:29 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 14:56:29 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 14:56:29 [32mINFO [0;39m http-nio-8080-exec-2] [com.green.greengramver1.user.UserController] [36mpic: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e817b4[0;39m
+[2024-05-02 14:56:29 [32mINFO [0;39m http-nio-8080-exec-2] [com.green.greengramver1.user.UserController] [36mp: SignUpPostReq(uid=mic2, upw=1234, nm=딸기초코파르페2, pic=null)[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m Thread-11] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m Thread-11] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-3 - Shutdown initiated...[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m Thread-11] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-3 - Shutdown completed.[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 247 ms[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-4 - Starting...[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-4 - Added connection org.mariadb.jdbc.Connection@475ae00c[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-4 - Start completed.[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.44 seconds (process running for 344.144)[0;39m
+[2024-05-02 14:57:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:00:36 [32mINFO [0;39m http-nio-8080-exec-4] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-02 15:00:36 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-02 15:00:36 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-02 15:00:36 [32mINFO [0;39m http-nio-8080-exec-4] [com.green.greengramver1.user.UserController] [36mpic: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7f9da522[0;39m
+[2024-05-02 15:00:36 [32mINFO [0;39m http-nio-8080-exec-4] [com.green.greengramver1.user.UserController] [36mp: SignUpPostReq(uid=mic3, upw=1234, nm=딸기초코파르페3, pic=null)[0;39m
+[2024-05-02 15:02:11 [32mINFO [0;39m http-nio-8080-exec-10] [com.green.greengramver1.user.UserController] [36mpic: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1761bca5[0;39m
+[2024-05-02 15:02:11 [32mINFO [0;39m http-nio-8080-exec-10] [com.green.greengramver1.user.UserController] [36mp: SignUpPostReq(uid=mic3, upw=1234, nm=딸기초코파르페3, pic=null)[0;39m
+[2024-05-02 15:02:11 [33mWARN [0;39m http-nio-8080-exec-10] [org.mariadb.jdbc.message.server.ErrorPacket] [36mError: 1062-23000: Duplicate entry 'mic3' for key 'uid'[0;39m
+[2024-05-02 15:02:11 [31mERROR[0;39m http-nio-8080-exec-10] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=94) Duplicate entry 'mic3' for key 'uid'
+### The error may exist in file [D:\2024-03\backEnd\GreengramVer1\build\resources\main\mappers\UserMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO user         SET         uid = ?,                     upw = ?,                     nm = ?,                     pic = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=94) Duplicate entry 'mic3' for key 'uid'
+; (conn=94) Duplicate entry 'mic3' for key 'uid'] with root cause[0;39m
+java.sql.SQLIntegrityConstraintViolationException: (conn=94) Duplicate entry 'mic3' for key 'uid'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:172)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:915)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:854)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:773)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:697)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:93)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:276)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy7/jdk.proxy7.$Proxy122.userPost(Unknown Source)
+	at com.green.greengramver1.user.UserService.userPost(UserService.java:18)
+	at com.green.greengramver1.user.UserController.postUser(UserController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[2024-05-02 15:02:46 [32mINFO [0;39m http-nio-8080-exec-7] [com.green.greengramver1.user.UserController] [36mpic: org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6b57cb03[0;39m
+[2024-05-02 15:02:46 [32mINFO [0;39m http-nio-8080-exec-7] [com.green.greengramver1.user.UserController] [36mp: SignUpPostReq(uid=mic4, upw=1234, nm=딸기초코파르페4, pic=null)[0;39m
+[2024-05-02 15:03:02 [33mWARN [0;39m http-nio-8080-exec-8] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 5 class path changes (1 addition, 0 deletions, 4 modifications)[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m Thread-15] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m Thread-15] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-4 - Shutdown initiated...[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m Thread-15] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-4 - Shutdown completed.[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 248 ms[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-5 - Starting...[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-5 - Added connection org.mariadb.jdbc.Connection@501055cb[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-5 - Start completed.[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.438 seconds (process running for 936.439)[0;39m
+[2024-05-02 15:07:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)[0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m Thread-19] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m Thread-19] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-5 - Shutdown initiated...[0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m Thread-19] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-5 - Shutdown completed.[0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:08:12 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 249 ms[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-6 - Starting...[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-6 - Added connection org.mariadb.jdbc.Connection@7143623b[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-6 - Start completed.[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.447 seconds (process running for 980.021)[0;39m
+[2024-05-02 15:08:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)[0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m Thread-23] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m Thread-23] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-6 - Shutdown initiated...[0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m Thread-23] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-6 - Shutdown completed.[0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:10:12 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 246 ms[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-7 - Starting...[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-7 - Added connection org.mariadb.jdbc.Connection@18c8f593[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-7 - Start completed.[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.425 seconds (process running for 1099.908)[0;39m
+[2024-05-02 15:10:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m Thread-27] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m Thread-27] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-7 - Shutdown initiated...[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m Thread-27] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-7 - Shutdown completed.[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 254 ms[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-8 - Starting...[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-8 - Added connection org.mariadb.jdbc.Connection@4e3574b0[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-8 - Start completed.[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.46 seconds (process running for 2485.616)[0;39m
+[2024-05-02 15:33:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m Thread-31] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m Thread-31] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-8 - Shutdown initiated...[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m Thread-31] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-8 - Shutdown completed.[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 410 ms[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-9 - Starting...[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-9 - Added connection org.mariadb.jdbc.Connection@4b03e5d1[0;39m
+[2024-05-02 15:40:43 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-9 - Start completed.[0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.722 seconds (process running for 2930.745)[0;39m
+[2024-05-02 15:40:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m Thread-35] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m Thread-35] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-9 - Shutdown initiated...[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m Thread-35] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-9 - Shutdown completed.[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 251 ms[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-10 - Starting...[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-10 - Added connection org.mariadb.jdbc.Connection@4e6d3268[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-10 - Start completed.[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.451 seconds (process running for 3879.456)[0;39m
+[2024-05-02 15:56:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m Thread-39] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m Thread-39] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-10 - Shutdown initiated...[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m Thread-39] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-10 - Shutdown completed.[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 281 ms[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-11 - Starting...[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-11 - Added connection org.mariadb.jdbc.Connection@3a78355[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-11 - Start completed.[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.476 seconds (process running for 3947.615)[0;39m
+[2024-05-02 15:57:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 15:58:40 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 12912 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 15:58:40 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 15:58:41 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 15:58:41 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@27358a19
+[2024-05-02 15:58:41 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 15:58:41 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 15:58:41 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.945 seconds (process running for 2.744)
+[2024-05-02 15:58:42 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 15:58:42 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:00:02 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 9772 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:00:02 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:00:03 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:00:03 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@563317c1
+[2024-05-02 16:00:03 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:00:04 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:00:04 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.728 seconds (process running for 3.593)
+[2024-05-02 16:00:05 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:00:05 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:06:22 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m Thread-43] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m Thread-43] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-11 - Shutdown initiated...[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m Thread-43] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-11 - Shutdown completed.[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:06:22 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 257 ms[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-12 - Starting...[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-12 - Added connection org.mariadb.jdbc.Connection@31e94510[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-12 - Start completed.[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.46 seconds (process running for 4469.783)[0;39m
+[2024-05-02 16:06:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m Thread-47] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m Thread-47] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-12 - Shutdown initiated...[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m Thread-47] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-12 - Shutdown completed.[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 232 ms[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-13 - Starting...[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-13 - Added connection org.mariadb.jdbc.Connection@750e0a43[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-13 - Start completed.[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.404 seconds (process running for 4624.495)[0;39m
+[2024-05-02 16:08:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m Thread-51] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m Thread-51] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-13 - Shutdown initiated...[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m Thread-51] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-13 - Shutdown completed.[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 279 ms[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-14 - Starting...[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-14 - Added connection org.mariadb.jdbc.Connection@6182a4bf[0;39m
+[2024-05-02 16:25:04 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-14 - Start completed.[0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.48 seconds (process running for 5591.678)[0;39m
+[2024-05-02 16:25:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m Thread-55] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m Thread-55] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-14 - Shutdown initiated...[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m Thread-55] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-14 - Shutdown completed.[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 235 ms[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-15 - Starting...[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-15 - Added connection org.mariadb.jdbc.Connection@63246c27[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-15 - Start completed.[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.407 seconds (process running for 5787.321)[0;39m
+[2024-05-02 16:28:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m Thread-59] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m Thread-59] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-15 - Shutdown initiated...[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m Thread-59] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-15 - Shutdown completed.[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 249 ms[0;39m
+[2024-05-02 16:32:59 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 9280 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:32:59 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-16 - Starting...[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-16 - Added connection org.mariadb.jdbc.Connection@90781f4[0;39m
+[2024-05-02 16:32:59 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-16 - Start completed.[0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.48 seconds (process running for 6066.672)[0;39m
+[2024-05-02 16:33:00 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:33:00 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:33:00 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1753475d
+[2024-05-02 16:33:00 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:33:01 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:33:01 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.994 seconds (process running for 2.795)
+[2024-05-02 16:33:02 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:33:02 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:33:31 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 10400 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:33:31 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:33:32 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:33:32 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@394a6d2b
+[2024-05-02 16:33:32 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:33:33 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:33:33 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.979 seconds (process running for 2.808)
+[2024-05-02 16:33:34 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:33:34 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:33:50 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 10692 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:33:50 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:33:52 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:33:52 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@77663cd7
+[2024-05-02 16:33:52 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:33:53 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:33:53 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.816 seconds (process running for 3.638)
+[2024-05-02 16:33:54 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:33:54 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:39:25 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:39:25 [32mINFO [0;39m Thread-63] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:39:25 [32mINFO [0;39m Thread-63] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-16 - Shutdown initiated...[0;39m
+[2024-05-02 16:39:25 [32mINFO [0;39m Thread-63] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-16 - Shutdown completed.[0;39m
+[2024-05-02 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 251 ms[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-17 - Starting...[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-17 - Added connection org.mariadb.jdbc.Connection@3fb9c92c[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-17 - Start completed.[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.457 seconds (process running for 6452.86)[0;39m
+[2024-05-02 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:39:26 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 12560 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:39:26 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:39:27 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:39:27 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@d108406
+[2024-05-02 16:39:27 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:39:28 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:39:28 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.008 seconds (process running for 2.837)
+[2024-05-02 16:39:28 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:39:28 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:42:36 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m Thread-67] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m Thread-67] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-17 - Shutdown initiated...[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m Thread-67] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-17 - Shutdown completed.[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:42:36 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 9864 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:42:36 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 261 ms[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-18 - Starting...[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-18 - Added connection org.mariadb.jdbc.Connection@398562ce[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-18 - Start completed.[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.491 seconds (process running for 6643.494)[0;39m
+[2024-05-02 16:42:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:42:37 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:42:37 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6e8f2094
+[2024-05-02 16:42:37 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:42:38 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:42:38 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.0 seconds (process running for 2.831)
+[2024-05-02 16:42:38 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:42:38 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:44:29 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 12588 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:44:29 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:44:30 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:44:30 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@221b77d7
+[2024-05-02 16:44:30 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:44:30 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:44:30 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.937 seconds (process running for 2.748)
+[2024-05-02 16:44:31 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:44:31 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:48:28 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 12320 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:48:28 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:48:29 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:48:29 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@305b43ca
+[2024-05-02 16:48:29 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:48:30 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:48:30 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.964 seconds (process running for 2.769)
+[2024-05-02 16:48:31 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:48:31 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:49:51 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 12676 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:49:51 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:49:51 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:49:51 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3a0896b3
+[2024-05-02 16:49:51 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:49:52 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:49:52 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.985 seconds (process running for 2.809)
+[2024-05-02 16:49:53 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:49:53 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:52:21 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 7656 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:52:21 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:52:22 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:52:22 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@635ff2a5
+[2024-05-02 16:52:22 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:52:23 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:52:23 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.005 seconds (process running for 2.826)
+[2024-05-02 16:52:23 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:52:23 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 16:54:56 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m Thread-71] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m Thread-71] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-18 - Shutdown initiated...[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m Thread-71] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-18 - Shutdown completed.[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 16:54:56 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 11096 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 16:54:56 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 267 ms[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-19 - Starting...[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-19 - Added connection org.mariadb.jdbc.Connection@4671dea0[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-19 - Start completed.[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.519 seconds (process running for 7383.24)[0;39m
+[2024-05-02 16:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 16:54:57 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 16:54:57 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@799c8758
+[2024-05-02 16:54:57 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 16:54:58 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 16:54:58 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 2.058 seconds (process running for 2.877)
+[2024-05-02 16:54:58 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 16:54:58 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 17:07:03 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m Thread-75] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m Thread-75] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-19 - Shutdown initiated...[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m Thread-75] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-19 - Shutdown completed.[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 254 ms[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-20 - Starting...[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-20 - Added connection org.mariadb.jdbc.Connection@52105336[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-20 - Start completed.[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.459 seconds (process running for 8110.257)[0;39m
+[2024-05-02 17:07:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m Thread-79] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m Thread-79] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-20 - Shutdown initiated...[0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m Thread-79] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-20 - Shutdown completed.[0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarting GreengramVer1Application using Java 17.0.10 with PID 10720 (D:\2024-03\backEnd\GreengramVer1\build\classes\java\main started by Administrator in D:\2024-03\backEnd\GreengramVer1)[0;39m
+[2024-05-02 17:12:32 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 266 ms[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-21 - Starting...[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-21 - Added connection org.mariadb.jdbc.Connection@4d1a9265[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-21 - Start completed.[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [com.green.greengramver1.GreengramVer1Application] [36mStarted GreengramVer1Application in 0.45 seconds (process running for 8439.916)[0;39m
+[2024-05-02 17:12:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-05-02 17:12:33 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 1248 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 17:12:33 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 17:12:34 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 17:12:34 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5cd8d029
+[2024-05-02 17:12:34 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 17:12:34 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 17:12:35 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.948 seconds (process running for 2.802)
+[2024-05-02 17:12:35 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 17:12:35 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 17:13:19 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Starting CustomFileUtilsTest using Java 17.0.10 with PID 11884 (started by Administrator in D:\2024-03\backEnd\GreengramVer1)
+[2024-05-02 17:13:19 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] The following 1 profile is active: "test"
+[2024-05-02 17:13:20 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-05-02 17:13:20 INFO  Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@77663cd7
+[2024-05-02 17:13:20 INFO  Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-05-02 17:13:21 INFO  Test worker] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2024-05-02 17:13:21 INFO  Test worker] [com.green.greengramver1.common.model.CustomFileUtilsTest] Started CustomFileUtilsTest in 1.937 seconds (process running for 2.744)
+[2024-05-02 17:13:22 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-05-02 17:13:22 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-05-02 17:53:43 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-21 - Shutdown initiated...[0;39m
+[2024-05-02 17:53:43 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-21 - Shutdown completed.[0;39m
