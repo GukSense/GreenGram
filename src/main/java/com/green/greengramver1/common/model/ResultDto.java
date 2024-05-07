@@ -8,8 +8,8 @@ import org.springframework.http.HttpStatus;
 @Data
 public class ResultDto<T> {
     private HttpStatus statusCode;
-    private String msg;
-    private T result;
+    private String resultMsg;
+    private T resultData;
 
 
 }

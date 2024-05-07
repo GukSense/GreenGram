@@ -7,6 +7,7 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class SignInRes {
     @Schema(example = "1", description = "유저PK")
     private long userId;

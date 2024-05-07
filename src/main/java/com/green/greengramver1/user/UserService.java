@@ -55,7 +55,7 @@ public class UserService {
 
         if (getUser == null) {
             throw new RuntimeException("아이디를 확인해 주세요.");
-        } else if(!p.getUpw().equals(getUser.getUpw())) {
+        } else if(!BCrypt.checkpw(p.getUpw(), getUser.getUpw())) {
             throw new RuntimeException("비밀번호를 확인해 주세요.");
         }
 

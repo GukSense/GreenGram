@@ -30,8 +30,8 @@ public class UserController {
 
         return ResultDto.<Integer>builder()
                 .statusCode(HttpStatus.OK)
-                .msg("회원가입 성공")
-                .result(result).build();
+                .resultMsg("회원가입 성공")
+                .resultData(result).build();
     }
 
     @PostMapping("sign-in")
@@ -39,11 +39,11 @@ public class UserController {
     public ResultDto<SignInRes> postSignIn(@RequestBody SignInPostReq p) {
         log.info("p: {}", p);
         SignInRes result = service.postSignIn(p);
-
+        System.out.println(result);
         return ResultDto.<SignInRes>builder()
                 .statusCode(HttpStatus.OK)
-                .msg("인증 성공")
-                .result(result)
+                .resultMsg("인증 성공")
+                .resultData(result)
                 .build();
 
     }
